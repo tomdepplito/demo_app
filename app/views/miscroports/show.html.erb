@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Content:</b>
+  <%= @miscroport.content %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @miscroport.user_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_miscroport_path(@miscroport) %> |
+<%= link_to 'Back', miscroports_path %>
